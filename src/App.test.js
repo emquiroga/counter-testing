@@ -2,8 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Render the App', () => {
   render(<App />);
-  const linkElement = screen.getByText("Counter: 0");
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByRole("app")).toMatchSnapshot();
 });

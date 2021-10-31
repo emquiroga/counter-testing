@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonCounter /> Tests First snapshot 1`] = `
+<button
+  aria-label="add"
+>
+  3
+</button>
+`;
